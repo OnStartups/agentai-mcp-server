@@ -1,0 +1,26 @@
+{
+    "name": "@agentai/mcp-server",
+    "version": "0.1.0",
+    "description": "MCP server for agent.ai API integration",
+    "license": "MIT",
+    "author": "Andrei Oprisan <andrei@agent.ai>",
+    "homepage": "https://docs.agent.ai",
+    "bugs": "https://github.com/../servers/issues",
+    "type": "module",
+    "bin": {
+      "mcp-server-agentai": "index.js"
+    },
+    "files": [
+      "index.js"
+    ],
+    "scripts": {
+      "prepare": "shx chmod +x index.js",
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "1.0.1"
+    },
+    "devDependencies": {
+      "shx": "^0.3.4"
+    }
+  }
